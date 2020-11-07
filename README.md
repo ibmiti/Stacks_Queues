@@ -26,7 +26,12 @@ Q: where do we see stacks in other places?
 A: in lang specific engines ( stack-overflow ),
    within functions, browser-history 
 
-   
+Q: what is stack overflow?:
+A: when a stack is overflowing - similar to memory leaks
+    when the call stack ( data structure ) gets too large for the memory to keep it within memory || memory runs out due to the size of stack
 
-   
- 
+Q: What does a call stack look like?:
+A: // this is a call stack 
+    console.log('bottom');
+    console.log('second-from top');
+    console.log('last but first accessed');
