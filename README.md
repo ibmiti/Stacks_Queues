@@ -35,3 +35,29 @@ A: // this is a call stack
     console.log('bottom');
     console.log('second-from top');
     console.log('last but first accessed');
+
+
+::: Qeueus | FIFO :::
+
+Q: what is a qeueue?:
+A: Data-structure similar to Stack yet opposite flow it operates as FIFO
+
+Q: What is FIFO?:
+A: FIFO is the opposite to LIFO 
+
+    more detail on FIFO:
+
+     it means first in first our || first item in the qeueue is the first to be released, which is the opposite of last in first out, which is to say the late item in the structure ( stack ) is the first one available for access
+
+Q: what are Qeueus operations run-time(s)?:
+A: lookup O(n), enqueue O(1) , dequeue O(1) , peek O(1)
+
+Q: where do we see these queues in programming?:
+A: restaraunt checkin app(s) : first to order table gets table , uber : requesting ride - first to order gets priority you're second, printer(s): first to print gets their document(s)
+
+Q: What does enqueue accomplish on a Queue data-strcuture?:
+A: add to queue at front of line / queue
+
+Q: what does dequeue accomplish?:
+A: remove person/element from queue at back of line / queue
+    
